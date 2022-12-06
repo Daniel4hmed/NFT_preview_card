@@ -1,0 +1,54 @@
+:root {
+  /* Primary Colours */
+  --COLOR_SOFT-BLUE: hsl(215, 51%, 70%);
+  --COLOR_CYAN: hsl(178, 100%, 50%);
+
+  /* Neutral Colours */
+  --COLOR_WHITE: hsl(0, 0%, 100%);
+  --COLOR_DARK-NAVY: hsl(217, 54%, 11%);
+  --COLOR_NAVY: hsl(216, 50%, 16%);
+  --COLOR_LIGHT-NAVY: hsl(215, 32%, 27%);
+
+  /* Border */
+  --CARD_BORDER-RADIUS: 20px;
+  --NFT_IMAGE_BORDER-RADIUS: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--COLOR_DARK-NAVY);
+  color: var(--COLOR_SOFT-BLUE);
+  font-family: 'Outfit', Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+.card-container {
+  max-width: 400px;
+  padding: 3rem;
+  margin: 3rem;
+  border-radius: var(--CARD_BORDER-RADIUS);
+  background-color: var(--COLOR_NAVY);
+}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+
+}
