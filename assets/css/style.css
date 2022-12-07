@@ -50,30 +50,41 @@ img {
 }
 
 /* Card Header */
-.card-header {
+.card-header a {
   position: relative;
+  display: block;
 }
 
-.card-header img {
-  border-radius: var(--NFT_IMAGE_BORDER-RADIUS);
-}
-
-.view-container {
+.card-header a::before, .card-header a::after {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: var(--NFT_IMAGE_BORDER-RADIUS);
-  background-color: var(--COLOR_CYAN);
   opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 
-.view-container:hover {
-  opacity: 0.5;
+.card-header a::before {
+  background-color: var(--COLOR_CYAN);
+  border-radius: var(--NFT_IMAGE_BORDER-RADIUS);
+}
+
+.card-header a::after {
+  background: url('../images/icon-view.svg') no-repeat center center;
+}
+
+.card-header a:hover::before {
+  opacity: 0.4;
+}
+
+.card-header a:hover::after {
+  opacity: 1;
+}
+
+.card-header img {
+  border-radius: var(--NFT_IMAGE_BORDER-RADIUS);
 }
 
 /* Desktop */
