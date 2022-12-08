@@ -115,7 +115,7 @@ a:hover {
 .info-container, 
 .ethereum-container, 
 .time-container,
-.creator-container {
+.card-footer {
   display: flex;
   align-items: center;
 }
@@ -133,13 +133,15 @@ a:hover {
   color: var(--COLOR_CYAN);
 }
 
-.info-container {
-  padding-bottom: 2rem;
-  border-bottom: 2px solid var(--COLOR_LIGHT-NAVY);
+/* Card Footer */
+.card-footer {
+  padding-top: 2rem;
+  border-top: 2px solid var(--COLOR_LIGHT-NAVY);
+  margin-top: 2rem;
 }
 
-.creator-container {
-  margin-top: 2rem;
+.card-footer p {
+  font-size: 1.4rem;
 }
 
 .avatar {
