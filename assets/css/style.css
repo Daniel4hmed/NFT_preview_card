@@ -42,7 +42,7 @@ img {
 }
 
 .card-container {
-  max-width: 500px;
+  max-width: 400px;
   padding: 3rem;
   margin: 3rem;
   border-radius: var(--CARD_BORDER-RADIUS);
@@ -51,7 +51,7 @@ img {
 
 /* Card Header */
 .card-header {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .card-header a {
@@ -95,7 +95,7 @@ img {
 .card-body h1 {
   font-size: 3rem;
   color: var(--COLOR_WHITE);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 /* Desktop */
