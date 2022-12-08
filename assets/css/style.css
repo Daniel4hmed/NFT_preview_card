@@ -91,6 +91,13 @@ img {
   border-radius: var(--NFT_IMAGE_BORDER-RADIUS);
 }
 
+/* Card Body */
+.card-body h1 {
+  font-size: 3rem;
+  color: var(--COLOR_WHITE);
+  margin-bottom: 3rem;
+}
+
 /* Desktop */
 @media screen and (min-width: 1440px) {
 
