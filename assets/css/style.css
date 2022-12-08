@@ -42,7 +42,7 @@ img {
 }
 
 .card-container {
-  max-width: 400px;
+  max-width: 500px;
   padding: 3rem;
   margin: 3rem;
   border-radius: var(--CARD_BORDER-RADIUS);
@@ -50,6 +50,10 @@ img {
 }
 
 /* Card Header */
+.card-header {
+  margin-bottom: 2rem;
+}
+
 .card-header a {
   position: relative;
   display: block;
