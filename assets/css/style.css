@@ -41,6 +41,15 @@ img {
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: var(--COLOR_WHITE);
+}
+
+a:hover {
+  color: var(--COLOR_CYAN);
+}
+
 .card-container {
   max-width: 400px;
   padding: 3rem;
@@ -94,7 +103,6 @@ img {
 /* Card Body */
 .card-body h1 {
   font-size: 3rem;
-  color: var(--COLOR_WHITE);
   margin-bottom: 2rem;
 }
 
@@ -106,7 +114,8 @@ img {
 
 .info-container, 
 .ethereum-container, 
-.time-container {
+.time-container,
+.creator-container {
   display: flex;
   align-items: center;
 }
@@ -127,6 +136,18 @@ img {
 .info-container {
   padding-bottom: 2rem;
   border-bottom: 2px solid var(--COLOR_LIGHT-NAVY);
+}
+
+.creator-container {
+  margin-top: 2rem;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  margin-right: 2rem;
+  border: 1px solid var(--COLOR_WHITE);
+  border-radius: 50%;
 }
 
 /* Desktop */
