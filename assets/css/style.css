@@ -98,6 +98,37 @@ img {
   margin-bottom: 2rem;
 }
 
+.description {
+  font-weight: 300;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.info-container, 
+.ethereum-container, 
+.time-container {
+  display: flex;
+  align-items: center;
+}
+
+.info-container {
+  justify-content: space-between;
+}
+
+.info-container svg {
+  margin-right: 0.5rem;
+}
+
+.ethereum-container p {
+  font-weight: bold;
+  color: var(--COLOR_CYAN);
+}
+
+.info-container {
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--COLOR_LIGHT-NAVY);
+}
+
 /* Desktop */
 @media screen and (min-width: 1440px) {
 
